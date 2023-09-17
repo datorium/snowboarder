@@ -100,6 +100,10 @@ A 3D graphical representation was employed to illustrate:
 2. The snowboarder's trajectory along the half-pipe.
 3. The snowboarder's path projection on the ground, visualized as a blue dashed line on the ground plane.
 
+![image](https://github.com/datorium/snowboarder/assets/45357320/d1eeecb1-6329-4871-912f-914f093c6707)
+![image](https://github.com/datorium/snowboarder/assets/45357320/fb914e16-acf8-41e7-bece-8f39214e8c74)
+
+
 ## 7. Conclusion
 
 Through this exploration, the dynamic motion of a snowboarder sliding down a sloped half-pipe is captured, offering insights into the intricate interplay of gravitational forces, geometry, and movement.
