@@ -61,7 +61,26 @@ Energy conservation is described by:
 
 $$K.E_{initial} + P.E_{initial} = K.E_{final} + P.E_{final}$$
 
-## 4. Simulation
+## 4. Analytical Derivation
+
+To derive an analytical solution for the snowboarder's path:
+
+1. **Half-Pipe Equation**: It's represented as $Z = aY^2 - X \tan(\theta)$, with $\theta$ as the slope angle.
+
+2. **Forces**: The snowboarder faces gravitational force ($F_g = mg$) and a varying normal force due to the parabolic pipe shape.
+
+3. **Equations of Motion**: Using Newton's second law, we get differential equations describing the snowboarder's motion.
+
+### Challenges:
+
+- The system yields **non-linear differential equations**, tough to solve analytically.
+- Multiple variables lead to **coupled differential equations**, adding complexity.
+- The parabolic shape creates **path dependency**, making the motion hard to express simply.
+
+Given these challenges, numerical methods, which approximate solutions, are preferred for practicality and efficiency.
+
+
+## 5. Simulation
 
 **Initial Conditions:**  
 - The snowboarder commences from the top of the left lip with velocities $v_x = 0$ and $v_y = 0$.
@@ -74,13 +93,13 @@ $$K.E_{initial} + P.E_{initial} = K.E_{final} + P.E_{final}$$
 
 Using incremental time steps ($dt = 0.01s$), the snowboarder's velocities and positions are continually updated until reaching the half-pipe's end.
 
-## 5. Visualization
+## 6. Visualization
 
 A 3D graphical representation was employed to illustrate:
 1. The sloped half-pipe.
 2. The snowboarder's trajectory along the half-pipe.
 3. The snowboarder's path projection on the ground, visualized as a blue dashed line on the ground plane.
 
-## 6. Conclusion
+## 7. Conclusion
 
 Through this exploration, the dynamic motion of a snowboarder sliding down a sloped half-pipe is captured, offering insights into the intricate interplay of gravitational forces, geometry, and movement.
